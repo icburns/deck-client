@@ -1,0 +1,66 @@
+.Configure {
+  text-align: center;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Configure form {
+  width: 100%;
+}
+
+.Configure fieldset {
+  border-radius: 8px;
+  background-color: rgba(248, 248, 255, .25);
+  margin: 24px;
+  padding: 12px;
+}
+
+.Configure button {
+  display: inline-block;
+  margin: 12px;
+}
+
+.Configure .shape {
+  width: 50px;
+  height: 50px;
+}
+
+.Configure label {
+  padding: 12px;
+}
+
+.Configure select, .Configure input, .Configure button{
+  padding: 8px;
+  border-radius: 12px;
+  outline: none;
+  background-color: lightgray;
+  margin: 0 12px 0 12px;
+}
+
+.Configure select:focus, .Configure input:focus, .Configure button:focus {
+  border-color: goldenrod;
+  background-color: ghostwhite;
+}
+
+.Configure select:hover, .Configure input:hover, .Configure button:hover {
+  border-color: goldenrod;
+}
+
+.Configure .shape {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.Configure fieldset > div {
+  padding: 12px 0;
+  min-width: 25%;
+  float: left;
+}
+
+.Configure fieldset > div:nth-child(5) {
+  clear: left;
+}
